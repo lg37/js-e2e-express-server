@@ -6,8 +6,9 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: LGlocalPool
+# pool:
+#   vmImage: ubuntu-latest
 
 steps:
 - task: NodeTool@0
